@@ -1,5 +1,5 @@
 const tokens = canvas.tokens.controlled.filter((t) =>
-  ['character'].includes(t.actor.data.type),
+  ['character'].includes(t.actor.type),
 )
 
 if (tokens.length === 0) {
